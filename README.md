@@ -1,4 +1,4 @@
-[README inglés](https://github.com/danibcorr/creative_electronics/blob/main/README_EN.md) / [README español](https://github.com/danibcorr/creative_electronics/blob/main/README.md)
+[README Inglés](https://github.com/danibcorr/Kinect-PowerPoint/blob/main/README_EN.md) / [README Español](https://github.com/danibcorr/Kinect-PowerPoint/blob/main/README.md)
 # Control de presentaciones de PowerPoint mediante Kinect
 
 ## 📄 Resumen
