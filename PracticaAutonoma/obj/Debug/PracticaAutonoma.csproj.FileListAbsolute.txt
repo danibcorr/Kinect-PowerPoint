@@ -1,0 +1,9 @@
+C:\Users\dbc\Documents\Universidad\Interactiva\PAutonoma\PracticaAutonoma\obj\Debug\PracticaAutonoma.csproj.AssemblyReference.cache
+C:\Users\dbc\Documents\Universidad\Interactiva\PAutonoma\PracticaAutonoma\obj\Debug\PracticaAutonoma.csproj.SuggestedBindingRedirects.cache
+C:\Users\dbc\Documents\Universidad\Interactiva\PAutonoma\PracticaAutonoma\obj\Debug\MainWindow.baml
+C:\Users\dbc\Documents\Universidad\Interactiva\PAutonoma\PracticaAutonoma\obj\Debug\MainWindow.g.cs
+C:\Users\dbc\Documents\Universidad\Interactiva\PAutonoma\PracticaAutonoma\obj\Debug\App.g.cs
+C:\Users\dbc\Documents\Universidad\Interactiva\PAutonoma\PracticaAutonoma\obj\Debug\ColorBasics-WPF_MarkupCompile.cache
+C:\Users\dbc\Documents\Universidad\Interactiva\PAutonoma\PracticaAutonoma\obj\Debug\ColorBasics-WPF.g.resources
+C:\Users\dbc\Documents\Universidad\Interactiva\PAutonoma\PracticaAutonoma\obj\Debug\ColorBasics-WPF.exe
+C:\Users\dbc\Documents\Universidad\Interactiva\PAutonoma\PracticaAutonoma\obj\Debug\ColorBasics-WPF.pdb
