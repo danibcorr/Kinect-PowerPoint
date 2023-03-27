@@ -22,6 +22,12 @@ Abra el archivo "KinectPowerPointControl.sln" en Visual Studio.
 Compile el proyecto para generar la aplicación de escritorio.
 Una vez que la aplicación se haya compilado, puede ejecutarla para comenzar a controlar PowerPoint con la Kinect.
 
+## 🪛 Utilidades 
+
++ Código de teclas virtual: https://learn.microsoft.com/es-es/windows/win32/inputdev/virtual-key-codes?redirectedfrom=MSDN
++ Librería para la simulación de las teclas: https://github.com/michaelnoonan/inputsimulator
++ Instalación de la librería para la simulación de las teclas: https://ourcodeworld.com/articles/read/520/simulating-keypress-in-the-right-way-using-inputsimulator-with-csharp-in-winforms
+
 ## 👤 Contribuyentes
 
 Realizado por Clara Rubio Almagro y Daniel Bazo Correa, estudiantes de Grado en Ingeniería de Sistemas Electrónicos de la Universidad de Málaga.
