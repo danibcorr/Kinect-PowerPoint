@@ -27,6 +27,7 @@ Una vez que la aplicación se haya compilado, puede ejecutarla para comenzar a c
 + Código de teclas virtual: https://learn.microsoft.com/es-es/windows/win32/inputdev/virtual-key-codes?redirectedfrom=MSDN
 + Librería para la simulación de las teclas: https://github.com/michaelnoonan/inputsimulator
 + Instalación de la librería para la simulación de las teclas: https://ourcodeworld.com/articles/read/520/simulating-keypress-in-the-right-way-using-inputsimulator-with-csharp-in-winforms
++ DLL para el control del ratón: https://www.codeproject.com/tips/371718/the-kinect-mouse-controller-csharp
 
 ## 👤 Contribuyentes
 
