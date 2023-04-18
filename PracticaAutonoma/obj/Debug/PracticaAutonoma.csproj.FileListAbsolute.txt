@@ -47,3 +47,45 @@ C:\Users\danib\Documents\Universidad\Interactiva\Pautonoma\PracticaAutonoma\obj\
 C:\Users\danib\Documents\Universidad\Interactiva\Pautonoma\PracticaAutonoma\obj\Debug\PracticaAutonoma.csproj.CopyComplete
 C:\Users\danib\Documents\Universidad\Interactiva\Pautonoma\PracticaAutonoma\obj\Debug\ColorBasics-WPF.exe
 C:\Users\danib\Documents\Universidad\Interactiva\Pautonoma\PracticaAutonoma\obj\Debug\ColorBasics-WPF.pdb
+C:\Users\clara\Downloads\Kinect-PowerPoint-main (1)\Kinect-PowerPoint-main\PracticaAutonoma\bin\Debug\ColorBasics-WPF.exe.config
+C:\Users\clara\Downloads\Kinect-PowerPoint-main (1)\Kinect-PowerPoint-main\PracticaAutonoma\bin\Debug\ColorBasics-WPF.exe
+C:\Users\clara\Downloads\Kinect-PowerPoint-main (1)\Kinect-PowerPoint-main\PracticaAutonoma\bin\Debug\ColorBasics-WPF.pdb
+C:\Users\clara\Downloads\Kinect-PowerPoint-main (1)\Kinect-PowerPoint-main\PracticaAutonoma\bin\Debug\Microsoft.Kinect.dll
+C:\Users\clara\Downloads\Kinect-PowerPoint-main (1)\Kinect-PowerPoint-main\PracticaAutonoma\bin\Debug\Microsoft.Speech.dll
+C:\Users\clara\Downloads\Kinect-PowerPoint-main (1)\Kinect-PowerPoint-main\PracticaAutonoma\bin\Debug\WindowsInput.dll
+C:\Users\clara\Downloads\Kinect-PowerPoint-main (1)\Kinect-PowerPoint-main\PracticaAutonoma\bin\Debug\Microsoft.Kinect.xml
+C:\Users\clara\Downloads\Kinect-PowerPoint-main (1)\Kinect-PowerPoint-main\PracticaAutonoma\bin\Debug\WindowsInput.xml
+C:\Users\clara\Downloads\Kinect-PowerPoint-main (1)\Kinect-PowerPoint-main\PracticaAutonoma\obj\Debug\PracticaAutonoma.csproj.AssemblyReference.cache
+C:\Users\clara\Downloads\Kinect-PowerPoint-main (1)\Kinect-PowerPoint-main\PracticaAutonoma\obj\Debug\PracticaAutonoma.csproj.SuggestedBindingRedirects.cache
+C:\Users\clara\Downloads\Kinect-PowerPoint-main (1)\Kinect-PowerPoint-main\PracticaAutonoma\obj\Debug\MainWindow.baml
+C:\Users\clara\Downloads\Kinect-PowerPoint-main (1)\Kinect-PowerPoint-main\PracticaAutonoma\obj\Debug\MainWindow.g.cs
+C:\Users\clara\Downloads\Kinect-PowerPoint-main (1)\Kinect-PowerPoint-main\PracticaAutonoma\obj\Debug\App.g.cs
+C:\Users\clara\Downloads\Kinect-PowerPoint-main (1)\Kinect-PowerPoint-main\PracticaAutonoma\obj\Debug\ColorBasics-WPF_MarkupCompile.cache
+C:\Users\clara\Downloads\Kinect-PowerPoint-main (1)\Kinect-PowerPoint-main\PracticaAutonoma\obj\Debug\ColorBasics-WPF.g.resources
+C:\Users\clara\Downloads\Kinect-PowerPoint-main (1)\Kinect-PowerPoint-main\PracticaAutonoma\obj\Debug\Microsoft.Samples.Kinect.ColorBasics.Properties.Resources.resources
+C:\Users\clara\Downloads\Kinect-PowerPoint-main (1)\Kinect-PowerPoint-main\PracticaAutonoma\obj\Debug\PracticaAutonoma.csproj.GenerateResource.cache
+C:\Users\clara\Downloads\Kinect-PowerPoint-main (1)\Kinect-PowerPoint-main\PracticaAutonoma\obj\Debug\PracticaAutonoma.csproj.CoreCompileInputs.cache
+C:\Users\clara\Downloads\Kinect-PowerPoint-main (1)\Kinect-PowerPoint-main\PracticaAutonoma\obj\Debug\PracticaAutonoma.csproj.CopyComplete
+C:\Users\clara\Downloads\Kinect-PowerPoint-main (1)\Kinect-PowerPoint-main\PracticaAutonoma\obj\Debug\ColorBasics-WPF.exe
+C:\Users\clara\Downloads\Kinect-PowerPoint-main (1)\Kinect-PowerPoint-main\PracticaAutonoma\obj\Debug\ColorBasics-WPF.pdb
+C:\Users\danib\Documents\Universidad\Interactiva\Pautonoma\Kinect-PowerPoint-main\PracticaAutonoma\bin\Debug\ColorBasics-WPF.exe.config
+C:\Users\danib\Documents\Universidad\Interactiva\Pautonoma\Kinect-PowerPoint-main\PracticaAutonoma\bin\Debug\ColorBasics-WPF.exe
+C:\Users\danib\Documents\Universidad\Interactiva\Pautonoma\Kinect-PowerPoint-main\PracticaAutonoma\bin\Debug\ColorBasics-WPF.pdb
+C:\Users\danib\Documents\Universidad\Interactiva\Pautonoma\Kinect-PowerPoint-main\PracticaAutonoma\bin\Debug\Microsoft.Kinect.dll
+C:\Users\danib\Documents\Universidad\Interactiva\Pautonoma\Kinect-PowerPoint-main\PracticaAutonoma\bin\Debug\WindowsInput.dll
+C:\Users\danib\Documents\Universidad\Interactiva\Pautonoma\Kinect-PowerPoint-main\PracticaAutonoma\bin\Debug\Microsoft.Kinect.xml
+C:\Users\danib\Documents\Universidad\Interactiva\Pautonoma\Kinect-PowerPoint-main\PracticaAutonoma\bin\Debug\WindowsInput.xml
+C:\Users\danib\Documents\Universidad\Interactiva\Pautonoma\Kinect-PowerPoint-main\PracticaAutonoma\obj\Debug\PracticaAutonoma.csproj.AssemblyReference.cache
+C:\Users\danib\Documents\Universidad\Interactiva\Pautonoma\Kinect-PowerPoint-main\PracticaAutonoma\obj\Debug\PracticaAutonoma.csproj.SuggestedBindingRedirects.cache
+C:\Users\danib\Documents\Universidad\Interactiva\Pautonoma\Kinect-PowerPoint-main\PracticaAutonoma\obj\Debug\MainWindow.baml
+C:\Users\danib\Documents\Universidad\Interactiva\Pautonoma\Kinect-PowerPoint-main\PracticaAutonoma\obj\Debug\MainWindow.g.cs
+C:\Users\danib\Documents\Universidad\Interactiva\Pautonoma\Kinect-PowerPoint-main\PracticaAutonoma\obj\Debug\App.g.cs
+C:\Users\danib\Documents\Universidad\Interactiva\Pautonoma\Kinect-PowerPoint-main\PracticaAutonoma\obj\Debug\ColorBasics-WPF_MarkupCompile.cache
+C:\Users\danib\Documents\Universidad\Interactiva\Pautonoma\Kinect-PowerPoint-main\PracticaAutonoma\obj\Debug\ColorBasics-WPF.g.resources
+C:\Users\danib\Documents\Universidad\Interactiva\Pautonoma\Kinect-PowerPoint-main\PracticaAutonoma\obj\Debug\Microsoft.Samples.Kinect.ColorBasics.Properties.Resources.resources
+C:\Users\danib\Documents\Universidad\Interactiva\Pautonoma\Kinect-PowerPoint-main\PracticaAutonoma\obj\Debug\PracticaAutonoma.csproj.GenerateResource.cache
+C:\Users\danib\Documents\Universidad\Interactiva\Pautonoma\Kinect-PowerPoint-main\PracticaAutonoma\obj\Debug\PracticaAutonoma.csproj.CoreCompileInputs.cache
+C:\Users\danib\Documents\Universidad\Interactiva\Pautonoma\Kinect-PowerPoint-main\PracticaAutonoma\obj\Debug\PracticaAutonoma.csproj.CopyComplete
+C:\Users\danib\Documents\Universidad\Interactiva\Pautonoma\Kinect-PowerPoint-main\PracticaAutonoma\obj\Debug\ColorBasics-WPF.exe
+C:\Users\danib\Documents\Universidad\Interactiva\Pautonoma\Kinect-PowerPoint-main\PracticaAutonoma\obj\Debug\ColorBasics-WPF.pdb
+C:\Users\danib\Documents\Universidad\Interactiva\Pautonoma\Kinect-PowerPoint-main\PracticaAutonoma\bin\Debug\KinectMouseController.dll
