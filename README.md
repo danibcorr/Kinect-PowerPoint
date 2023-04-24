@@ -5,22 +5,19 @@
 Este repositorio contiene una solución completa para controlar presentaciones de PowerPoint utilizando la Kinect, un dispositivo de detección de movimiento desarrollado por Microsoft. La solución incluye una aplicación de escritorio en C# que se encarga de comunicarse con la Kinect, procesar los datos de movimiento y enviar comandos a PowerPoint.
 
 ## ⚙️ Características
-+ Controla PowerPoint utilizando gestos de la mano detectados por la Kinect.
-+ Soporte para una variedad de gestos.
-+ Personalización de los gestos y comandos asociados.
-+ Comandos de voz adicionales para controlar PowerPoint utilizando el reconocimiento de voz.
++ Controla PowerPoint utilizando gestos corpolares así como comandos de voz.
 + Funciona en Windows 10 y versiones posteriores.
 + Soporte para Microsoft Kinect SDK.
 
 ## ⚒️ Configuración
 Para utilizar Kinect PowerPoint Control, siga los siguientes pasos:
 
-Clone el repositorio en su equipo local.
-Asegúrese de tener instalado Microsoft Kinect SDK en su equipo.
-Conecte su Kinect a su equipo.
-Abra el archivo del proyecto con extensión ".sln" en Visual Studio.
-Compile el proyecto para generar la aplicación de escritorio.
-Una vez que la aplicación se haya compilado, puede ejecutarla para comenzar a controlar PowerPoint con la Kinect.
+1. Clone el repositorio en su equipo local.
+2. Asegúrese de tener instalado Microsoft Kinect SDK en su equipo.
+3. Conecte su Kinect a su equipo.
+4. Abra el archivo del proyecto con extensión ".sln" en Visual Studio.
+5. Compile el proyecto para generar la aplicación de escritorio.
+6. Una vez que la aplicación se haya compilado, puede ejecutarla para comenzar a controlar PowerPoint con la Kinect.
 
 ## 🪛 Utilidades 
 
