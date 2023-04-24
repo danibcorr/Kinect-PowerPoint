@@ -6,7 +6,7 @@ This repository contains a complete solution for controlling PowerPoint presenta
 
 ## ⚙️ Features.
 + Control PowerPoint using hand gestures detected by the Kinect.
-+ Support for a variety of gestures, including scrolling, selection, zoom and rotation.
++ Support for a variety of gestures.
 + Customization of gestures and associated commands.
 + Additional voice commands to control PowerPoint using speech recognition.
 + Works on Windows 10 and later versions.
@@ -18,7 +18,7 @@ To use Kinect PowerPoint Control, follow the steps below:
 Clone the repository on your local computer.
 Make sure you have Microsoft Kinect SDK installed on your computer.
 Connect your Kinect to your computer.
-Open the file "KinectPowerPointControl.sln" in Visual Studio.
+Open the file with extension ".sln" in Visual Studio.
 Compile the project to generate the desktop application.
 Once the application is compiled, you can run it to start controlling PowerPoint with the Kinect.
 
