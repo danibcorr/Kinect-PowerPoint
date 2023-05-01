@@ -196,18 +196,25 @@ namespace Microsoft.Samples.Kinect.ColorBasics
                     // para añadir un nuevo comando de voz, añadir case aquí
 
                     case "EMPEZAR":
-                        // Descomentar siguiente línea si se está usando la versión instalada
-                        //sim.Keyboard.KeyPress(VirtualKeyCode.F5);
-                        // Descomentar siguiente línea si se está usando la versión online
-                        sim.Keyboard.ModifiedKeyStroke(VirtualKeyCode.CONTROL, VirtualKeyCode.F5);
-                        empezarSpan.Foreground = Brushes.DeepSkyBlue;
-                        empezarSpan.FontWeight = FontWeights.Bold;
+                        if(control_puntero == false)
+                        {
+                            // Descomentar siguiente línea si se está usando la versión instalada
+                            //sim.Keyboard.KeyPress(VirtualKeyCode.F5);
+                            // Descomentar siguiente línea si se está usando la versión online
+                            sim.Keyboard.ModifiedKeyStroke(VirtualKeyCode.CONTROL, VirtualKeyCode.F5);
+                            empezarSpan.Foreground = Brushes.DeepSkyBlue;
+                            empezarSpan.FontWeight = FontWeights.Bold;
+                        }
+                        
                         break;
 
                     case "SALIR":
-                        salirSpan.Foreground = Brushes.DeepSkyBlue;
-                        salirSpan.FontWeight = FontWeights.Bold;
-                        sim.Keyboard.KeyPress(VirtualKeyCode.ESCAPE);
+                        if(control_puntero == false)
+                        {
+                            salirSpan.Foreground = Brushes.DeepSkyBlue;
+                            salirSpan.FontWeight = FontWeights.Bold;
+                            sim.Keyboard.KeyPress(VirtualKeyCode.ESCAPE);
+                        }
                         break;
 
                     case "PUNTERO":
@@ -227,10 +234,13 @@ namespace Microsoft.Samples.Kinect.ColorBasics
                         break;
 
                     case "ELEGIR":
-                        elegirSpan.Foreground = Brushes.DeepSkyBlue;
-                        elegirSpan.FontWeight = FontWeights.Bold;
-                        sim.Keyboard.KeyPress(VirtualKeyCode.VK_G);
-                        control_elegir = true;
+                        if (control_puntero == false)
+                        {
+                            elegirSpan.Foreground = Brushes.DeepSkyBlue;
+                            elegirSpan.FontWeight = FontWeights.Bold;
+                            sim.Keyboard.KeyPress(VirtualKeyCode.VK_G);
+                            control_elegir = true;
+                        }
                         break;
 
                     case "ESTA":
@@ -244,15 +254,21 @@ namespace Microsoft.Samples.Kinect.ColorBasics
                         break;
 
                     case "INICIO":
-                        inicioSpan.Foreground = Brushes.DeepSkyBlue;
-                        inicioSpan.FontWeight = FontWeights.Bold;
-                        Process.Start("powerpnt.exe");
+                        if (control_puntero == false)
+                        {
+                            inicioSpan.Foreground = Brushes.DeepSkyBlue;
+                            inicioSpan.FontWeight = FontWeights.Bold;
+                            Process.Start("powerpnt.exe");
+                        }
                         break;
 
                     case "FIN":
-                        finSpan.Foreground = Brushes.DeepSkyBlue;
-                        finSpan.FontWeight = FontWeights.Bold;
-                        sim.Keyboard.ModifiedKeyStroke(VirtualKeyCode.LMENU, VirtualKeyCode.F4);
+                        if (control_puntero == false)
+                        {
+                            finSpan.Foreground = Brushes.DeepSkyBlue;
+                            finSpan.FontWeight = FontWeights.Bold;
+                            //sim.Keyboard.ModifiedKeyStroke(VirtualKeyCode.LMENU, VirtualKeyCode.F4);
+                        }
                         break;
                 }
             }
