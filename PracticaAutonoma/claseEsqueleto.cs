@@ -1,4 +1,14 @@
-﻿using System.Windows;
+/*
+ *  Código realizado por: Daniel Bazo Correa y Clara Rubio Almagro
+ *  Fecha: 01/05/2023
+ *  Asignatura de Sistemas electrónicos interactivos
+ *  ETSIT Universidad de Málaga
+ *  
+ *  Clase de control de esqueleto
+ */
+
+// LIBRERIAS
+using System.Windows;
 using System.Windows.Media;
 using Microsoft.Kinect;
 using WindowsInput.Native;
@@ -7,7 +17,8 @@ using System.Windows.Forms;
 
 public static class Esqueleto
 {
-    // Variables para el esqueleto
+    /* ******************** ATRIBUTOS ******************** */
+
     /// Width of output drawing
     public static float RenderWidth = 640.0f;
     /// Height of our output drawing
@@ -32,10 +43,12 @@ public static class Esqueleto
     public static DrawingGroup drawingGroup;
     /// Drawing image that we will display
     public static DrawingImage imageSource;
-
+    /// Puntero de control
     public static bool punteroActivo = false;
 
-    /// Draws indicators to show which edges are clipping skeleton data
+    /* ******************** FIN ATRIBUTOS ******************** */
+
+    /// DIBUJA INDICADORES PARA MOSTRAR QUE LÍNEAS FORMAN EL ESQUELETO
     public static void RenderClippedEdges(Skeleton skeleton, DrawingContext drawingContext)
     {
         if (skeleton.ClippedEdges.HasFlag(FrameEdges.Bottom))
@@ -71,6 +84,7 @@ public static class Esqueleto
         }
     }
 
+    // FUNCIÓN DE RENDERIZACIÓN DEL ESQUELETO
     public static void DrawBonesAndJoints(Skeleton skeleton, DrawingContext drawingContext, KinectSensor sensor, ref float miAlturaIzqda,
         ref float miAlturaDerecha, ref float miAlturaCabeza, Brush brushManoAlzadaIzqda, Brush brushManoAlzadaDerecha, ref bool control_der,
         ref bool control_izq, ref bool control_puntero, double JointThicknessAzul, double JointThicknessAmarillo, InputSimulator sim)
