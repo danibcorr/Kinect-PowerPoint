@@ -37,10 +37,6 @@ namespace Microsoft.Samples.Kinect.ColorBasics
     using System.Collections.Generic;
     using System.Windows.Documents;
     using WindowsInput.Native;
-    using System;
-    using System.ComponentModel;
-    using System.Text;
-    using System.Threading.Tasks;
     using System.Diagnostics;
     
     /* ******************** FIN LIBRERÍAS ******************** */
@@ -210,12 +206,13 @@ namespace Microsoft.Samples.Kinect.ColorBasics
                 {
                     // COMIENZA EL MODO PRESENTACIÓN
                     case "EMPEZAR":
+
                         if(control_puntero == false)
                         {
                             // Descomentar siguiente línea si se está usando la versión instalada
-                            //sim.Keyboard.KeyPress(VirtualKeyCode.F5);                                 // Simulación de pulsación de tecla F5
+                            sim.Keyboard.KeyPress(VirtualKeyCode.F5);                                 // Simulación de pulsación de tecla F5
                             // Descomentar siguiente línea si se está usando la versión online
-                            sim.Keyboard.ModifiedKeyStroke(VirtualKeyCode.CONTROL, VirtualKeyCode.F5);  // Simulación de pulsación de teclas CONTROL y F5
+                            //sim.Keyboard.ModifiedKeyStroke(VirtualKeyCode.CONTROL, VirtualKeyCode.F5);  // Simulación de pulsación de teclas CONTROL y F5
                             empezarSpan.Foreground = Brushes.DeepSkyBlue;                               // Pone azul el span correspondiente
                             empezarSpan.FontWeight = FontWeights.Bold;                                  // Aumenta la fuente del span
                         }
@@ -224,16 +221,19 @@ namespace Microsoft.Samples.Kinect.ColorBasics
 
                     // SALE DEL MODO PRESENTACIÓN
                     case "SALIR":
+
                         if(control_puntero == false)
                         {
                             salirSpan.Foreground = Brushes.DeepSkyBlue;         // Pone azul el span correspondiente
                             salirSpan.FontWeight = FontWeights.Bold;            // Aumenta la fuente del span
                             sim.Keyboard.KeyPress(VirtualKeyCode.ESCAPE);       // Simulación de pulsación de tecla ESC
                         }
+
                         break;
 
                     // ACTIVA/DESACTIVA EL MODO PUNTERO
                     case "PUNTERO":
+
                         punteroSpan.Foreground = Brushes.DeepSkyBlue;           // Pone azul el span correspondiente
                         punteroSpan.FontWeight = FontWeights.Bold;              // Aumenta la fuente del span
 
@@ -251,6 +251,7 @@ namespace Microsoft.Samples.Kinect.ColorBasics
 
                     // ACTIVA EL MODO MINIATURA
                     case "ELEGIR":
+
                         if (control_puntero == false)
                         {
                             elegirSpan.Foreground = Brushes.DeepSkyBlue;        // Pone azul el span correspondiente
@@ -258,38 +259,45 @@ namespace Microsoft.Samples.Kinect.ColorBasics
                             sim.Keyboard.KeyPress(VirtualKeyCode.VK_G);         // Simulación de pulsación de tecla G
                             control_elegir = true;                              // Avisa de que está en modo miniatura
                         }
+
                         break;
 
                     // ELIGE LA DIAPOSITIVA EN EL MODO MINIATURA
                     case "ESTA":
+
                         // SOLO EJECUTA SI ESTÁ EN MODO MINIATURA
-                        if(control_elegir)
+                        if(control_elegir == true && control_puntero == false)
                         {
                             elegirSpan.Foreground = Brushes.DeepSkyBlue;        // Pone azul el span correspondiente
                             elegirSpan.FontWeight = FontWeights.Bold;           // Aumenta la fuente del span
                             sim.Keyboard.KeyPress(VirtualKeyCode.RETURN);       // Simulación de pulsación de tecla ENTER
                             control_elegir = false;                             // Avisa de que ya no está en modo miniatura
                         }
+
                         break;
 
                     // COMIENZA EL PROGRAMA
                     case "INICIO":
+
                         if (control_puntero == false)
                         {
                             inicioSpan.Foreground = Brushes.DeepSkyBlue;        // Pone azul el span correspondiente
                             inicioSpan.FontWeight = FontWeights.Bold;           // Aumenta la fuente del span
                             Process.Start("powerpnt.exe");                      // Comienza el proceso que activa el programa
                         }
+
                         break;
 
                     // CIERRA EL PROGRAMA
                     case "FIN":
+
                         if (control_puntero == false)
                         {
                             finSpan.Foreground = Brushes.DeepSkyBlue;           // Pone azul el span correspondiente
                             finSpan.FontWeight = FontWeights.Bold;              // Aumenta la fuente del span
                             //sim.Keyboard.ModifiedKeyStroke(VirtualKeyCode.LMENU, VirtualKeyCode.F4);      // Simulación de pulsación de teclas ALT y F4
                         }
+
                         break;
                 }
             }

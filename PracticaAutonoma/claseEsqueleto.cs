@@ -135,7 +135,7 @@ public static class Esqueleto
                         sim.Keyboard.ModifiedKeyStroke(VirtualKeyCode.CONTROL, VirtualKeyCode.VK_L);
                     }
                     
-                    if (miAlturaIzqda > miAlturaCabeza)
+                    if (miAlturaIzqda > miAlturaCabeza && punteroActivo == false)
                     {
                         drawBrush = brushManoAlzadaIzqda;
                         miJointThickness = JointThicknessAzul;
@@ -155,9 +155,9 @@ public static class Esqueleto
                 {
                     if (punteroActivo == false)
                     {
+                        punteroActivo = true;
                         // Activamos la pulsacion de teclas del laser
                         sim.Keyboard.ModifiedKeyStroke(VirtualKeyCode.CONTROL, VirtualKeyCode.VK_L);
-                        punteroActivo = true;
                     }
 
                     // Variables que representan las dimensiones máximas del espacio 3D del esqueleto de la Kinect.
@@ -180,7 +180,7 @@ public static class Esqueleto
             {
                 miAlturaDerecha = joint.Position.Y;
 
-                if (miAlturaDerecha > miAlturaCabeza)
+                if (miAlturaDerecha > miAlturaCabeza && punteroActivo == false)
                 {
                     drawBrush = brushManoAlzadaDerecha;
                     miJointThickness = JointThicknessAmarillo;

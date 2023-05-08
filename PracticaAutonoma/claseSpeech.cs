@@ -19,7 +19,10 @@ public static class claseSpeech
         {
             string value;
             recognizer.AdditionalInfo.TryGetValue("Kinect", out value);
-            if ("True".Equals(value, StringComparison.OrdinalIgnoreCase) && "es-ES".Equals(recognizer.Culture.Name, StringComparison.OrdinalIgnoreCase))
+            // es-ES
+            // en-US
+
+            if ("True".Equals(value, StringComparison.OrdinalIgnoreCase) && "en-US".Equals(recognizer.Culture.Name, StringComparison.OrdinalIgnoreCase))
             {
                 return recognizer;
             }
